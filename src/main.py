@@ -6,7 +6,7 @@ nlp = spacy.load("en_core_web_sm")
 text = ""
 
 # Process whole documents
-with open("testfile.txt", "r") as f:
+with open("../testfile.txt", "r") as f:
         text = f.read()
 
 doc = nlp(text)
